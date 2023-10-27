@@ -1,0 +1,29 @@
+.header img {
+    height: 80px;
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    background-color: black;
+}
+
+.header ul li{
+    list-style-type: none;
+    float: left;
+    height: 40px;
+}
+
+.header ul li a{
+    color: white;
+    font-size: 17px;
+    line-height: 40px;
+    padding: 0 30px;
+    display: block;
+    font-weight: 400;
+}
+
+.header ul li a:hover{
+    background-color: #aaa;
+}
