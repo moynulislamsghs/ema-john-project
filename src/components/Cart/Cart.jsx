@@ -1,4 +1,5 @@
 import React from 'react';
+import './Cart.css';
 
 const Cart = (props) => {
     const cart = props.cart;
@@ -47,8 +48,8 @@ const Cart = (props) => {
     }
 
     return (
-        <div>
-            <h4>Order Summary</h4>
+        <div className='cart-details'>
+            <h3>Order Summary</h3>
             <h5>Items Ordered: {cart.length}</h5>
             <p>Items: ${formatAmount(totalPrice)}</p>
             <p>Shipping & Handling: ${shippingCost}</p>

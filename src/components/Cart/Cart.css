@@ -1,0 +1,10 @@
+.cart-details {
+    text-align: left;
+    padding-left: 20px;
+    font-weight: normal;
+}
+
+.cart-details h3 {
+    text-align: center;
+    color: green;
+}
